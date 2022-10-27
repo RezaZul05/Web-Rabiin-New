@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+html{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background: white;
+}
+.layar-penuh{
+  width: 100%;
+
+
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(7, 64, 4);
+}
+
+/* .card{
+  background: white;
+  width: 270px;
+  height: 400px;
+  margin: 10px;
+}
+
+.card-image{
+  background-color: aqua;
+  height: 150px;
+  margin-bottom: 15px;
+} */
+
+/* .wrapper .packwrapper .pack .order:hover{
+  color: white;
+  background-color: black !important;
+  margin-bottom: 10%;
+} */
+
+.gambar{
+  width: 30%;
+  float: left;
+  margin-left: 150px;
+  margin-right: 60px;
+  margin-bottom: 10px;
+}
+
+/* .tim{
+  display: flex;
+  margin-bottom: 10px;
+ */

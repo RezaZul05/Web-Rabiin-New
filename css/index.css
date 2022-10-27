@@ -1,0 +1,196 @@
+
+/* Profile Start */
+#profile{
+  margin-bottom: 10px;
+}
+
+#profile .wrapper{
+  margin: 0%;
+  position: relative;
+}
+
+#profile .wrapper .bg-photo{
+  display: block;
+  width: 100%;
+  height: 10%;
+  object-fit: cover;
+  background-color: black;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+#profile .gradient{
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom:0;
+  left: 0;
+  z-index: 2;
+  background: linear-gradient(to top, #FFF9B0, rgba(255, 0, 0, 0));
+}
+
+.bg-text{
+  font-size: 100px;
+  color:white;
+  font-weight: bold;
+  /* border: 3px solid #f1f1f1; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 0 0 3px green;
+}
+
+.bg-text2{
+  font-size: 100px;
+  color:  rgb(7, 64, 4);
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.bg-text3{
+  font-size: 40px;
+  color: rgb(21, 48, 27);
+  font-weight: bold;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Profile End */
+
+/* Tagline Start */
+#tagline .wrapper{
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+/* Tagline End */
+
+/* Content Start */
+#content .deskripsi{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 15px;
+}
+
+#content .deskripsi .images{
+  border-radius: 10px;
+  width: 25%;
+  margin-left: 50px;
+  margin-right: 50px;
+  -webkit-mask:url(https://i.ibb.co/mBrmH0k/Mf15d.png) center/contain no-repeat;
+}
+
+
+#content.deskripsi .detail{
+  width: 50%;
+  text-align: center;
+}
+/* Content End */
+
+/* Package Start */
+#package .wrapper{
+  display: flex;
+  gap: 10px;
+}
+
+#package .wrapper .kolom{
+  width: 25%;
+  margin: 15px;
+}
+
+#package .photo{
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#package .card{
+  overflow: hidden;
+  background-color: #c2c5aa;
+  border: 1px solid #000;
+  border-radius: 20px;
+  gap: 5px;
+  border: none;
+  box-shadow: 5px 2px #B2B2B2;
+}
+
+#package .package-title{
+  text-align: center;
+}
+
+#package .border{
+  margin-left: 35%;
+  width: 30%;
+}
+
+#package .title{
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+#package h3{
+  margin-bottom: 10px;
+}
+
+#package .deskripsi{
+  text-align: center;
+  font-style: normal;
+}
+
+#package .btn{
+  background-color: #334e3b;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 2px 2px #87a878;
+  margin-bottom: 10px;
+}
+/* Package End */
+
+/* Contact Start */
+
+#contact .text{
+  font-size: 100%;
+  color: black;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+}
+#contact .text:hover{
+  background-color: black;
+  color: white;
+}
+/* Contact End */

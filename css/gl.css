@@ -1,0 +1,139 @@
+.layar-penuh{
+    width: 100%;
+}
+/* Set header */
+header{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+}
+header video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+}
+header .intro{
+    z-index: 100;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+header .intro h3{
+    font-size: 50px;
+    margin: 0px;
+    padding: 10px;
+}
+header .intro p{
+    margin: 0;
+    padding: 10px;
+}
+.tombol{
+    background-color: crimson;
+    height: 40px;
+    line-height: 42px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+header .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 50%;
+    z-index: -1;
+}
+div#list-foto{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ overflow: hidden;
+ padding: 10px 0px 10px 0px;   
+}
+div#list-foto div{
+    padding: 10px;
+}
+div#list-foto div img{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+div#list-foto div img:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+.dekor{
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+section.quote{
+    background: url(/assets/img1.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    padding: 100px;
+}
+section.quote .layar-dalam p{
+    display: inline;
+    background: url(/assets/quote-icon.png) no-repeat;
+    padding: 40px;
+}
+section {
+    padding: 50px 0px 50px 0px;
+}
+section h3{
+    font-size: 30px;
+}
+section h3::after{
+    content: "";
+    border-bottom: 5px solid red;
+    width: 52px;
+    display: block;
+    margin: 20px auto;
+}
+section .ringkasan p{
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+}
+#team{
+    text-align: center;
+}
+.tim{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tim img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    box-shadow: 0px -10px 30px #ccc;
+    border-radius: 10px;
+}
+.tim h6{
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.tim div{
+    text-align: center;
+    width: 26%;
+}
