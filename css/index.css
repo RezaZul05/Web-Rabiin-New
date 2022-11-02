@@ -110,30 +110,39 @@
 /* Content End */
 
 /* Package Start */
+
+#package .container{
+  max-width: 1000px;
+}
+
 #package .wrapper{
   display: flex;
   gap: 10px;
 }
 
 #package .wrapper .kolom{
-  width: 25%;
+  width: 33.333%;
   margin: 15px;
 }
 
 #package .photo{
   display: block;
-  width: 100%;
+  position: relative;
+  width: 70%;
   margin-bottom: 5px;
+  top: 30%;
+  left: 15%;
 }
 
 #package .card{
   overflow: hidden;
-  background-color: #c2c5aa;
+  background-color: #ffffff;
   border: 1px solid #000;
   border-radius: 20px;
   gap: 5px;
   border: none;
-  box-shadow: 5px 2px #B2B2B2;
+  box-shadow: 0px 2px 5px 2px #B2B2B2;
+  
 }
 
 #package .package-title{
@@ -152,6 +161,7 @@
 
 #package h3{
   margin-bottom: 10px;
+  min-height: 100px;
 }
 
 #package .deskripsi{
