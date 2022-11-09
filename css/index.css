@@ -112,12 +112,15 @@
 /* Package Start */
 
 #package .container{
+  margin-right: auto;
+  margin-left: auto;
   max-width: 1000px;
 }
 
 #package .wrapper{
   display: flex;
   gap: 10px;
+  justify-content: center;
 }
 
 #package .wrapper .kolom{
