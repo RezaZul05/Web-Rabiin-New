@@ -183,8 +183,28 @@
 }
 /* Package End */
 
-/* Contact Start */
+/* Reservation Start */
+#reservation .wrapper{
+  margin-top: 15px ;
+  text-align: center;
+}
 
+#reservation .btn{
+  padding: 20px;
+  color: white;
+  background-color: #334e3b;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#reservation .btn:hover{
+  color: black;
+  background-color: #87a878;
+}
+/* Reservation End */
+
+/* Contact Start */
 #contact .text{
   font-size: 100%;
   color: black;
