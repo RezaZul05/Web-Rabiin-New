@@ -113,12 +113,15 @@
 /* Package Start */
 
 #package .container{
+  margin-right: auto;
+  margin-left: auto;
   max-width: 1000px;
 }
 
 #package .wrapper{
   display: flex;
   gap: 10px;
+  justify-content: center;
 }
 
 #package .wrapper .kolom{
@@ -180,6 +183,27 @@
   margin-bottom: 10px;
 }
 /* Package End */
+
+/* Reservation Start */
+#reservation .wrapper{
+  margin-top: 15px ;
+  text-align: center;
+}
+
+#reservation .btn{
+  padding: 20px;
+  color: white;
+  background-color: #334e3b;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#reservation .btn:hover{
+  color: black;
+  background-color: #87a878;
+}
+/* Reservation End */
 
 /* Contact Start */
 
