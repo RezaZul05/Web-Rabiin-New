@@ -82,6 +82,7 @@
 #tagline .wrapper{
   text-align: center;
   font-style: italic;
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 /* Tagline End */
@@ -223,8 +224,20 @@
   background-color: white;
   border-radius: 5px;
 }
-#contact .text:hover{
-  background-color: black;
-  color: white;
+
+#contact .media{
+  display: flex;
 }
+
+#contact .medsos{
+  padding-top: 3em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.medsos img{
+  width: 3vmax;
+}
+
 /* Contact End */
