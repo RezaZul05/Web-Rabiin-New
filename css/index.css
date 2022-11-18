@@ -29,7 +29,6 @@
   bottom:0;
   left: 0;
   z-index: 2;
-  background: linear-gradient(to top, #FFF9B0, rgba(255, 0, 0, 0));
 }
 
 .bg-text{
@@ -262,7 +261,7 @@
 
 .reserve h1{
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   text-transform: uppercase;
   border-bottom: 1px solid #304910;
 }
