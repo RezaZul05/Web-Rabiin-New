@@ -82,6 +82,7 @@
 #tagline .wrapper{
   text-align: center;
   font-style: italic;
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 /* Tagline End */
@@ -183,6 +184,26 @@
 }
 /* Package End */
 
+/* Reservation Start */
+#reservation .wrapper{
+  margin-top: 15px ;
+  text-align: center;
+}
+
+#reservation .btn{
+  padding: 20px;
+  color: white;
+  background-color: #334e3b;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#reservation .btn:hover{
+  color: black;
+  background-color: #87a878;
+}
+/* Reservation End */
 
 /* Contact Start */
 #contact .text{
@@ -202,8 +223,20 @@
   background-color: white;
   border-radius: 5px;
 }
-#contact .text:hover{
-  background-color: black;
-  color: white;
+
+#contact .media{
+  display: flex;
 }
+
+#contact .medsos{
+  padding-top: 3em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.medsos img{
+  width: 3vmax;
+}
+
 /* Contact End */
