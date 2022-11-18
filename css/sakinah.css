@@ -4,7 +4,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.container2 {
+.containersakinah {
   width: 100%;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/pexels-asad-photo-maldives-1024993.jpg);
@@ -32,11 +32,13 @@
   display: flex;
   height: 100%;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .col {
-  flex-basis: 50%;
   padding: 10px;
+  text-align: center;
 }
 
 h1 {
@@ -58,16 +60,14 @@ p {
   height: 240px;
   display: inline-block;
   border-radius: 10px;
-  padding: 15px 1px;
+  padding: 10px 5px;
   box-sizing: border-box;
   cursor: pointer;
-  margin: 10px 25px;
+  margin: 50px 25px;
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2)), url(/assets/card.jpg);
   background-position: center;
   background-size: cover;
   transition: transform 0.5s;
-  margin-left: 160px;
-  margin-right: -100px;
 }
 
 .card:hover {
@@ -85,6 +85,7 @@ h5 {
   text-shadow: 0 0 15px wheat;
   font-size: 15px;
   color: #000;
+  text-align: left;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
