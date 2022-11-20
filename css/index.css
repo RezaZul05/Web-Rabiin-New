@@ -263,14 +263,15 @@
 
 .reserve h1{
   text-align: center;
-  margin-bottom: 10px;
   text-transform: uppercase;
   border-bottom: 1px solid #304910;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .reserve label{
  text-align: left;
  color: #100f0f; 
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .reserve form input select{
@@ -296,8 +297,8 @@
 
 .reserv-btn .wrapper{
   margin: 10px;
-  display: grid;
-  gap: 50%;
+  display: flex;
+  gap: 50px;
 }
 
 .reserv-btn .back{
@@ -309,7 +310,24 @@
   border-radius: 5px;
 }
 
- body{
+.reserv-btn .back:hover{
+  background-color: #87a878;
+}
+
+.reserv-btn .book{
+  margin: 10px;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #334e3b;
+  border: none;
+  border-radius: 5px;
+}
+
+.reserv-btn .book:hover{
+  background-color: #87a878;
+}
+
+body{
   height: 100vh;
   background-image:url(/assets/1.jpg);
   background-size: cover;
