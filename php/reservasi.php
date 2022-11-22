@@ -15,6 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt -> bind_param("sssss", $nama, $email, $nomer, $paket, $tanggal);
         $stmt->execute();
         echo "registrasi Berhasil";
+        header('location:index.php');
         $stmt->close();
         $conn->close();
 
@@ -53,18 +54,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </select><br>
                 <label>Tanggal Pemesanan</label><br>
                 <input type="date" name="tanggal"><br>
+                <div class="reserv-btn">
+                    <div class="wrapper">
+                        <a href="../php/index.php">
+                            <button type="submit" class="back">Kembali</button>
+                        </a>
+                        <a href="../php/index.php">
+                        <button type="submit" class="book" form="formres">Pesan Sekarang</button>
+                        </a>
+                    </div>
+                </div>
             </form>
 
-            <div class="reserv-btn">
-                <div class="wrapper">
-                    <a href="../index.html">
-                        <button type="submit" class="back">Kembali</button>
-                    </a>
-                    <a href="../index.html">
-                    <button type="submit" class="book" form="formres">Pesan Sekarang</button>
-                    </a>
-                </div>
-            </div>
+            
         </section>
     </main>
 </body>

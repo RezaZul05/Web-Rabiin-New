@@ -32,10 +32,7 @@
         <th>Operations</th>
         
         <?php
-            $conn = mysqli_connect("localhost", "root", "","db_rabiin");
-            if ($conn-> connect_error){
-                die("Error connecting: ". $conn->connect_error);
-            }
+            include 'connect.php';
             $sql = "select * from registrasi";
             $result = $conn->query($sql);
 
@@ -56,7 +53,7 @@
             }
             echo "</table>";
         } else {
-            echo "0 result";
+            
         }
         $conn -> close();
         ?>
