@@ -15,6 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt -> bind_param("sssss", $nama, $email, $nomer, $paket, $tanggal);
         $stmt->execute();
         echo "registrasi Berhasil";
+        header('location:index.php');
         $stmt->close();
         $conn->close();
 
