@@ -133,8 +133,8 @@
     <!-- Reservation Start -->
     <section id="reservation">
       <div class="wrapper">
-        <a href="./src/reservasi.php">
-         <a href="./src/reservasi.php">
+        <!-- <a href="./php/reservasi.php"> -->
+         <a href="./php/reservasi.php">
           <button class="btn">RESERVASI</button>
         </a>
         <!-- <a href="./src/reservasi.html"></a> -->

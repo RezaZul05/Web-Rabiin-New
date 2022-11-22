@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div>
                 <h1>Formulir Pemesanan</h1>
             </div>
-            <form id="formres" method="POST"> 
+            <form id="formres" method="POST" action="/"> 
                 <label>Nama</label><br>
                 <input type="text" name="nama" size="40%"><br>   
                 <label>E-mail</label><br>
@@ -49,22 +49,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <option value="sakinah">Paket Sakinah</option>
                     <option value="mawadah">Paket Mawadah</option>
                     <option value="warahmawah">Paket Warahmawah</option>
-                    <option value="silahkan"selected>--silahkan dipilih--</option>
+                    <option value="silahkan"selected>--Silahkan Dipilih--</option>
                 </select><br>
                 <label>Tanggal Pemesanan</label><br>
                 <input type="date" name="tanggal"><br>
+
+                <div class="reserv-btn">
+                    <div class="wrapper">
+                        <a href="/index.php" class="back">Back</a>
+                        <button type="submit" class="book">Pesan Sekarang</button>
+                    </div>
+                </div>
             </form>
 
-            <div class="reserv-btn">
-                <div class="wrapper">
-                    <a href="../index.html">
-                        <button type="submit" class="back">Kembali</button>
-                    </a>
-                    <a href="../index.html">
-                    <button type="submit" class="book" form="formres">Pesan Sekarang</button>
-                    </a>
-                </div>
-            </div>
+            
         </section>
     </main>
 </body>
