@@ -133,13 +133,10 @@
     <!-- Reservation Start -->
     <section id="reservation">
       <div class="wrapper">
-<<<<<<<< HEAD:index.php
         <!-- <a href="./php/reservasi.php"> -->
          <a href="./php/reservasi.php">
-========
         <a href="../php/reservasi.php">
          <a href="../php/reservasi.php">
->>>>>>>> b727c63a375fe3a95e4b61e972aa99b8754f6f1d:php/index.php
           <button class="btn">RESERVASI</button>
         </a>
         <!-- <a href="./src/reservasi.html"></a> -->
