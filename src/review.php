@@ -29,11 +29,9 @@
   </script>
   <!-- Navbar End -->
 
-  <!-- Review Customer Start -->
-  <div class="title">
-    <h1>Review</h1>
-  </div>
 
+    <!-- End -->
+  <!-- Review Customer Start -->
   <div class="container">
     <!-- Customer 2 -->
     <div class="box">
@@ -56,36 +54,35 @@
     <!-- Customer 4 -->
     <div class="box">
       <img src="../img/img4.jpg" alt="">
-      <h2>Judul</h2>
+      <h2>Geo </h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, dolorum facilis? Repudiandae eos sed rem.</p>
     </div>
     <!-- Customer 5 -->
     <div class="box">
       <img src="../img/img5.jpg" alt="">
-      <h2>Judul</h2>
+      <h2>Pesulap Merah</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, dolorum facilis? Repudiandae eos sed rem.</p>
     </div>
     <!-- Customer 6 -->
     <div class="box">
       <img src="../img/img6.jpg" alt="">
-      <h2>Judul</h2>
+      <h2>Dr. Richard</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, dolorum facilis? Repudiandae eos sed rem.</p>
     </div>
     <!-- Customer 7 -->
     <div class="box">
       <img src="../img/img7.jpg" alt="">
-      <h2>Judul</h2>
+      <h2>Cicit Mbah Priuk</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, dolorum facilis? Repudiandae eos sed rem.</p>
     </div>
     <!-- Customer 8 -->
     <div class="box">
       <img src="../img/img8.jpg" alt="">
-      <h2>Judul</h2>
+      <h2>Habib Jindan</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, dolorum facilis? Repudiandae eos sed rem.</p>
     </div>
   </div>
   <!-- Review Customer End -->
-
 
   <!-- Quote Start -->
 
@@ -97,35 +94,41 @@
     <!-- Quote End -->
 
     <!-- Team Start -->
-    <section id="team">
-      <div class="layar-dalam ">
-        <h3>Our Team</h3>
-        <div class="ringkasan">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, pariatur?</p>
-          <div class="tim">
-            <div>
-              <img src="../assets/tasya.jpeg">
-              <h6>Talitha Naifa Audrey</h6>
-              <span>Indonesia</span>
-            </div>
-            <div>
-              <img src="../assets/hanif.jpeg">
-              <h6>Hanif Prasetyo</h6>
-              <span>Indonesia</span>
-            </div>
-            <div>
-              <img src="../assets/safi.jpeg">
-              <h6>M Safi Anwar Anas</h6>
-              <span>Indonesia</span>
-            </div>
-            <div>
-              <img src="../assets/reza.JPG">
-              <h6>Reza Zulkifli Ferdiansyah</h6>
-              <span>Indonesia</span>
-            </div>
+<section id="team">
+  <div class="wrapper">
+    <div class="layar-dalam ">
+      <h3>Our Team</h3>
+      <div class="ringkasan">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, pariatur?</p>
+        <div class="tim">
+          <div>
+            <img src="../assets/tasya.jpeg">
+            <h6>Talitha Naifa Audrey</h6>
+            <span>Indonesia</span>
           </div>
+
+          <div>
+            <img src="../assets/hanif.jpeg">
+            <h6>Hanif Prasetyo</h6>
+            <span>Indonesia</span>
+          </div>
+
+          <div>
+            <img src="../assets/safi.jpeg">
+            <h6>M Safi Anwar Anas</h6>
+            <span>Indonesia</span>
+          </div>
+
+          <div>
+            <img src="../assets/reza.JPG">
+            <h6>Reza Zulkifli Ferdiansyah</h6>
+            <span>Indonesia</span>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+</section>
     <!-- Team End -->
+
 </body>
 </html>

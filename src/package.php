@@ -13,7 +13,7 @@
     
   </style>
   <!-- Navbar Start -->
-  <header class="sticky">
+  <!-- <header class="sticky">
     <a href="#" class="logo"></a>
     <ul>
       <li><a href="#">Home</a></li>
@@ -27,7 +27,7 @@
       var header = document.querySelector("header");
       header.classList.toggle("sticky", window.scrollY > 0);    
     })
-  </script>
+  </script> -->
   <!-- Navbar End -->
 
   <section>
@@ -74,7 +74,6 @@
     <!-- manual navigation end -->
   </div>
   <!-- image slider end -->
-
   </section>
   
 

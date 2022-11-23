@@ -44,7 +44,7 @@
   width: 80%;
   padding: 20px;
   text-align: center;
-  text-shadow: 0 0 3px green;
+  text-shadow: 0 0 3px rgb(0, 128, 0);
 }
 
 .bg-text2{
@@ -134,7 +134,6 @@
   width: 70%;
   top: 30%;
   left: 15%;
-  
 }
 
 #package .card{

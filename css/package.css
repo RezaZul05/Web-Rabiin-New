@@ -5,7 +5,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #23E3C9;
+  background: rgb(0, 128, 0);
 }
 
 .slider{
@@ -46,7 +46,7 @@ body{
 }
 
 .manual-btn{
-  border: 2px solid #40D3DC;
+  border: 2px solid rgb(255, 255, 255);
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -58,7 +58,7 @@ body{
 }
 
 .manual-btn:hover{
-  background: #40D3DC;
+  background: rgb(255, 255, 255);
 }
 
 #radio1:checked ~ .first{
@@ -88,7 +88,7 @@ body{
 }
 
 .navigation-auto div{
-  border: 2px solid #40D3DC;
+  border: 2px solid rgb(0, 128, 0);
   padding: 5px;
   border-radius: 10px;
   transition: 1s;
@@ -99,14 +99,15 @@ body{
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-  background: #40D3DC;
+  background: rgb(0, 128, 0);
 }
 #radio2:checked ~ .navigation-auto .auto-btn2{
-  background: #40D3DC;
+  background: rgb(0, 128, 0);
 }
 #radio3:checked ~ .navigation-auto .auto-btn3{
-  background: #40D3DC;
+  background: rgb(0, 128, 0);
 }
 #radio4:checked ~ .navigation-auto .auto-btn4{
-  background: #40D3DC;
+  background: rgb(0, 128, 0);
 }
+
