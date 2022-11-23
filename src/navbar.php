@@ -1,33 +1,27 @@
-<header>
-<!-- source code navbar -->
-<section>
-  <div class="container">
-    <!-- Navbar Start -->
-    <link rel="stylesheet" href="../css/paket.css">
-    <div class="wrapper">
-      <ul class="navigation">
-        <li class="nav">
-          <a href="../crud/index.php" class="navlink">Home</a>
-        </li>
-        <div class="dropdown">
-          <button class="dropbtn">Paket WO</button>
-          <div class="dropdown-content">
-            <a href="../src/sakinah.php">Paket Sakinah</a>
-            <a href="../src/mawaddah.php">Paket Mawadah</a>
-            <a href="../src/warahmah.php">Paket Warahmah</a>
-          </div>
-        </div>
-        <li class="nav">
-          <a href="../src/galery.html" class="navlink">Galery</a>
-        </li>
-      </ul>
-    </div>
-  </section>
-</header>
-
-<!-- <script type="text/javascript">
-  window.addEventListener("scroll", function(){
-    var header = document.querySelector("header");
-    header.classList.toggle("sticky", window.scrollY > 0);
-  }) -->
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <title>Selamat Datang Di Website Kami</title>
+</head>
+<body>
+  <header class="sticky">
+    <a href="#" class="logo"></a>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Package</a></li>
+    </ul>
+  </header>
+  <section class="banner"></section>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);    
+    })
+  </script>
+</body>
+</html>

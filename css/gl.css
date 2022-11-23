@@ -4,17 +4,14 @@
 /* Set header */
 header{
     position: relative;
-    height: 100vh;
     width: 100%;
     overflow: hidden;
-    z-index: 2;
 }
 header video{
     position: absolute;
     top: 0;
     left: 0;
     object-fit: cover;
-    z-index: 2;
 }
 header .intro{
     z-index: 100;
@@ -78,7 +75,7 @@ div#list-foto div img:hover{
     text-align: center;
 }
 section.quote{
-    background: url(/assets/img1.jpg) no-repeat;
+    background: url(../assets/img1.jpg) no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -90,12 +87,12 @@ section.quote{
 }
 section.quote .layar-dalam p{
     display: inline;
-    background: url(/assets/quote-icon.png) no-repeat;
+    background: url(../assets/quote-icon.png) no-repeat;
     padding: 40px;
 }
-section {
+/* section {
     padding: 50px 0px 50px 0px;
-}
+} */
 section h3{
     font-size: 30px;
 }

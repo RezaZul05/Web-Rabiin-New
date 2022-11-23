@@ -16,28 +16,22 @@
 
 <body>
   <main>
-    <section>
-      <nav>
-        <div class="layar-dalam">
-          <div class="menu">
-            <ul>
-              <li><a href="../crud/index.php" class="navlink">Home</a></li>
-              <li><a href="../src/galery.php" class="navlink">Galery</a></li>
-              <li>
-                <div class="dropdown">
-                  <button class="dropbtn">Paket</button>
-                  <div class="dropdown-content">
-                    <a href="../src/sakinah.php">Paket Sakinah</a>
-                    <a href="../src/mawaddah.php">Paket Mawadah</a>
-                    <a href="../src/warahmah.php">Paket Warahmah</a>
-                  </div>
-              </li>
-              </div>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Nav Start -->
+    <header class="sticky">
+    <a href="#" class="logo"></a>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Package</a></li>
+    </ul>
+  </header>
+  <section class="banner"></section>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);    
+    })
+  </script>
     <!-- Navbar End -->
 
     
