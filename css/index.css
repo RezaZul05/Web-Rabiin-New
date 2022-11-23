@@ -62,7 +62,7 @@
 
 .bg-text3{
   font-size: 40px;
-  color: rgb(21, 48, 27);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   position: absolute;
   top: 80%;
@@ -212,15 +212,14 @@
   color: black;
   background-color: #87a878;
 }
-
-
 /* Reservation End */
 
 /* Contact Start */
 #contact .text{
   font-size: 100%;
-  color: black;
   font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
   border: 3px solid #f1f1f1;
   border: none;
   position: absolute;
@@ -231,7 +230,6 @@
   width: 20%;
   padding: 20px;
   text-align: center;
-  background-color: white;
   border-radius: 5px;
 }
 
@@ -244,12 +242,12 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .medsos img{
   width: 3vmax;
 }
-
 /* Contact End */
 
 /* reservasi start*/
