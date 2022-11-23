@@ -27,15 +27,15 @@
           <div class="layar-dalam">
             <div class="menu">
               <ul>
-                <li><a href="../index.html" class="navlink">Home</a></li>
-                <li><a href="../src/galery.html" class="navlink">Galery</a></li>
+                <li><a href="../index.php" class="navlink">Home</a></li>
+                <li><a href="../src/galery.php" class="navlink">Galery</a></li>
                 <li>
                   <div class="dropdown">
                     <button class="dropbtn">Paket</button>
                     <div class="dropdown-content">
-                      <a href="../src/sakinah.html">Paket Sakinah</a>
-                      <a href="../src/mawaddah.html">Paket Mawadah</a>
-                      <a href="../src/warahmah.html">Paket Warahmah</a>
+                      <a href="../src/sakinah.php">Paket Sakinah</a>
+                      <a href="../src/mawaddah.php">Paket Mawadah</a>
+                      <a href="../src/warahmah.php">Paket Warahmah</a>
                     </div>
                 </li>
                 </div>
@@ -94,7 +94,7 @@
               <img class="photo" src="../assets/img5.jpeg" alt="">
               <div class="deskripsi">
                 <h3>Kami menyediakan paket yang super elegan dan mewah, cocok buat para sultan</h3>
-                <a href="../src/sakinah.html" class="see-more">
+                <a href="../src/sakinah.php" class="see-more">
                   <button class="btn">Lihat Selengkapnya!</button>
                 </a>
             </div>
@@ -106,7 +106,7 @@
               <img class="photo" src="../assets/img6.jpeg" alt="">
               <div class="deskripsi">
                 <h3>Paket yang minimalis tetapi tetap memberikan kesan yang tak terlupakan </h3>
-                <a href="../src/mawaddah.html" class="see-more">
+                <a href="../src/mawaddah.php" class="see-more">
                   <button class="btn">Lihat Selengkapnya!</button>
                 </a>
             </div>
@@ -118,7 +118,7 @@
               <img class="photo" src="../assets/img7.png" alt="">
               <div class="deskripsi">
                 <h3>Paket pernikahan sesuai yang diinginkan dengan harga terjangkau </h3>
-                <a href="../src/warahmah.html" class="see-more">
+                <a href="../src/warahmah.php" class="see-more">
                   <button class="btn">Lihat Selengkapnya!</button>
                 </a>
             </div>
@@ -133,8 +133,7 @@
     <!-- Reservation Start -->
     <section id="reservation">
       <div class="wrapper">
-        <a href="../php/reservasi.php">
-         <a href="../php/reservasi.php">
+         <a href="../crud/reservasi.php">
           <button class="btn">RESERVASI</button>
         </a>
         <!-- <a href="./src/reservasi.html"></a> -->

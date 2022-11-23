@@ -14,6 +14,18 @@
             font-size: 25px;
             text-align: left;
         }
+        .back{
+            background: #555;
+            padding: 10px 15px;
+            color: #fff;
+            border-radius: 5px;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            border: none;
+        }
+        .back:hover{
+            opacity: .7;
+        }
         th{
             background-color: #588c7e;
             color: #fff;
@@ -22,6 +34,7 @@
     </style>
 </head>
 <body>
+    <a href="./pilihanAdmin.php"><button class="back">Kembali</button></a>
     <table>
         <th>Id</th>
         <th>Nama</th>
