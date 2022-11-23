@@ -27,7 +27,7 @@
           <div class="layar-dalam">
             <div class="menu">
               <ul>
-                <li><a href="../index.php" class="navlink">Home</a></li>
+                <li><a href="../crud/index.php" class="navlink">Home</a></li>
                 <li><a href="../src/galery.php" class="navlink">Galery</a></li>
                 <li>
                   <div class="dropdown">

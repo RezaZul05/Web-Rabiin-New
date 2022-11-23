@@ -22,14 +22,14 @@
           <div class="menu">
             <ul>
               <li><a href="../crud/index.php" class="navlink">Home</a></li>
-              <li><a href="../src/galery.html" class="navlink">Galery</a></li>
+              <li><a href="../src/galery.php" class="navlink">Galery</a></li>
               <li>
                 <div class="dropdown">
                   <button class="dropbtn">Paket</button>
                   <div class="dropdown-content">
-                    <a href="../src/sakinah.html">Paket Sakinah</a>
-                    <a href="../src/mawaddah.html">Paket Mawadah</a>
-                    <a href="../src/warahmah.html">Paket Warahmah</a>
+                    <a href="../src/sakinah.php">Paket Sakinah</a>
+                    <a href="../src/mawaddah.php">Paket Mawadah</a>
+                    <a href="../src/warahmah.php">Paket Warahmah</a>
                   </div>
               </li>
               </div>

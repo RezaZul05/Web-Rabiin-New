@@ -66,7 +66,7 @@
             }
             echo "</table>";
         } else {
-            
+            echo "0 result";
         }
         $conn -> close();
         ?>

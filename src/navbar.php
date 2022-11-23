@@ -1,3 +1,4 @@
+<header>
 <!-- source code navbar -->
 <section>
   <div class="container">
@@ -17,10 +18,16 @@
           </div>
         </div>
         <li class="nav">
-          <a href="../src/galery.php" class="navlink">Galery</a>
+          <a href="../src/galery.html" class="navlink">Galery</a>
         </li>
       </ul>
     </div>
-    <!-- Navbar End -->
-  </div>
-</section>
+  </section>
+</header>
+
+<!-- <script type="text/javascript">
+  window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+  }) -->
+</script>

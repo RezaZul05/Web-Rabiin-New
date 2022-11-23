@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 23 Nov 2022 pada 17.55
+-- Waktu pembuatan: 23 Nov 2022 pada 18.13
 -- Versi server: 10.4.21-MariaDB
 -- Versi PHP: 7.3.31
 
@@ -85,7 +85,8 @@ INSERT INTO `registrasi` (`id`, `nama`, `email`, `nomer`, `paket`, `tanggal`) VA
 (27, 'Safi', 'zukifliferdiansyah@gmail.com', '08971308010', '', ''),
 (28, 'Safi', 'zukifliferdiansyah@gmail.com', '08971308010', 'sakinah', '2022-12-10'),
 (29, 'Safi', 'zukifliferdiansyah@gmail.com', '08971308010', 'sakinah', '2022-12-10'),
-(30, 'mehisa', 'admin@admin.com', '08971303049', 'warahmawah', '2022-11-30');
+(30, 'mehisa', 'admin@admin.com', '08971303049', 'warahmawah', '2022-11-30'),
+(31, 'Insiyyah', 'admin@admin.com', '08971308010', 'sakinah', '2022-12-10');
 
 --
 -- Indexes for dumped tables
@@ -129,7 +130,7 @@ ALTER TABLE `paket`
 -- AUTO_INCREMENT untuk tabel `registrasi`
 --
 ALTER TABLE `registrasi`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
