@@ -1,31 +1,33 @@
-*{
+* {
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
 }
-html{
+
+html {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   margin: 0px;
   padding: 0px;
   background: white;
 }
-.layar-penuh{
+
+.layar-penuh {
   width: 100%;
 
 
 }
 
-.container{
+.container {
   display: flex;
   justify-content: center;
   background-color: rgb(7, 64, 4);
 }
 
-.gambar{
+.gambar {
   width: 30%;
   float: left;
   margin-left: 150px;
