@@ -304,12 +304,16 @@
 }
 
 .reserv-btn .back{
+  display: inline-block;
+  text-align: center;
   margin: 10px;
-  padding: 10px;
+  padding: 8px 20px 8px 20px;
   color: white;
   background-color: #334e3b;
   border: none;
   border-radius: 5px;
+  font-size: 0.7em;
+  text-decoration: none;
 }
 
 .reserv-btn .back:hover{
@@ -319,6 +323,7 @@
 .reserv-btn .book{
   margin: 10px;
   padding: 10px;
+  font-size: 10px;
   color: #ffffff;
   background-color: #334e3b;
   border: none;
@@ -337,3 +342,7 @@ body{
   background-repeat: no-repeat;
  }
 /* reservasi end */
+
+.back:visited{
+  color:#ffffff;
+}
